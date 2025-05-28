@@ -8,7 +8,7 @@ The contents of [main.m](./main.m) have segregated into [floor_plan.m](./individ
 
 ## Run the system
 
-1. Flash an ESP-32 with [reciever.ino](./reciever.ino) after replacing with actual MAC addresses and SSID.
+1. Flash an ESP-32 with [receiver.ino](./receiver.ino) after replacing with actual MAC addresses and SSID.
 
 2. Connect the ESP to you laptop via a serial port and start [main.m](./main.m) in MATLAB. Make to accordingly change the serial port name with respect to your laptop.
 
