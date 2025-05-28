@@ -4,7 +4,7 @@
 
 
 close all;
-a=[
+a=[  % actual coordinates
  13.5 , 62.4; % In South Block Lobby
  6.72, 53.1; % In front of second office in the corridor
  6.72, 32.05; % At the mid point of the corridor
@@ -13,7 +13,7 @@ a=[
  15.5 , 35.9 % Signal Processing lab
 ];
 
-% Predicted positions
+% Predicted positions in sets of 3 pair of coordinates.
 pred1=[8.5,47.1;10.8,68.5;9.9,67.4];
 pred2=[7.1,48.3;9.5,23.7;10.2,25.9];
 pred3=[10.3,35.8;10.5,35.2;8.1,35.6];
